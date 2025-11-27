@@ -19,6 +19,4 @@ jobs:
       with:
         python-version: ${{ matrix.py-version }}
     
-    - name: Display Python version
-      run: python --version
         
